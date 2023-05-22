@@ -1,0 +1,174 @@
+.header-block {
+	display: flex;
+	flex-direction: column;
+	gap: rem(7);
+	// .header-block__sub
+
+	&__sub {
+		line-height: math.div(22,16);
+		font-size: rem(16);
+		color: $colorViolet;
+	}
+
+	// .header-block__title
+
+	&__title {
+		font-family: "Overpass";
+		text-transform: capitalize;
+		font-weight: 700;
+		font-size: rem(56);
+		line-height: math.div(71,56);
+		color: $colorBlue;
+		@media (max-width: em(1200)) {
+			font-size: rem(50);
+		}
+		@media (max-width: em(475)) {
+			font-size: rem(40);
+		}
+	}
+}
+
+.text {
+	line-height: 1.6;
+	color: $colorWhite;
+	& p:not(:last-child) {
+		margin-bottom: rem(20);
+	}
+}
+
+.button {
+	display: inline-block;
+	align-self: flex-start;
+	text-align: center;
+	font-weight: 600;
+	font-size: rem(18);
+	line-height: 1.78;
+	background-color: $colorWhite;
+	box-shadow: 0px rem(10) rem(50) rgba(0, 0, 0, 0.3);
+	border-radius: rem(3);
+	padding: rem(19) rem(46);
+	transition: all 0.3s;
+	@media (any-hover: hover) {
+		&:hover {
+			color:  $colorWhite;
+			background-color:#100C46;
+		}
+	}
+	@media (max-width: em(767.98)) {
+		display: block;
+		align-self: stretch;
+		width: 100%;
+	}
+	&--dark {
+		color: $colorWhite;
+		background-color: #6257FE;
+	}
+}
+
+.items-block {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	gap: 23px;
+	padding: 0 70px;
+	@media (max-width: em(1200)) {
+		padding: 0;
+		gap: 15px;
+	}
+	@media (max-width: em(991.98)) {
+		grid-template-columns: repeat(3,1fr);
+	}
+	@media (max-width: em(767.98)) {
+		grid-template-columns: repeat(2,1fr);
+	}
+	@media (max-width: 479.98px) {
+		grid-template-columns: repeat(1,1fr);
+	}
+	// .items-block__item
+
+	&__item {
+		position: relative;
+		padding-bottom: 135%;
+		&.hover {
+			transition: all 0.3s;
+			@media (any-hover: hover) {
+				&:hover {
+					transform: scale(1.05);
+				}
+			}
+		}
+	}
+
+	// .items-block__image
+
+	&__image {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	// .items-block__content
+
+	&__content {
+		background-color: rgba(98, 87, 254, 0.8);
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		z-index: 5;
+		padding: 11px 18px;
+		display: flex;
+		gap: 10px;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	// .items-block__left-block
+
+	&__left-block {
+		color: #FFFFFF;
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 1.2;
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+	}
+
+	// .items-block__title
+
+	&__title {
+		transition: all 0.3s;
+		@media (any-hover: hover) {
+			&:hover {
+				color:#100C46;
+			}
+		}
+	}
+
+	// .items-block__sub
+
+	&__sub {
+	}
+
+	// .items-block__social-items
+
+	&__social-items {
+		display: flex;
+		gap: 10px;
+	}
+
+	// .items-block__social-item
+
+	&__social-item {
+		transition: all 0.3s;
+		@media (any-hover: hover) {
+			&:hover {
+				transform: scale(1.2);
+			}
+		}
+	}
+}
+
