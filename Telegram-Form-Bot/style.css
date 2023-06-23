@@ -110,6 +110,7 @@ a {
   border: 2px solid #a85701;
   -webkit-transition: 600ms;
   transition: 600ms;
+  cursor: pointer;
 }
 
 /*===========================================================================*/

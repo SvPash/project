@@ -1,7 +1,7 @@
 //bot token
 var telegram_bot_id = "6238958022:AAE9Xc047sKpeDRZNsWe8oEYUHZsxBWbnt8";
 //chat id
-var chat_id = 389582669;
+var chat_id = 426715843;
 var u_name, phone, town, numb, message;
 var ready = function () {
     u_name = document.getElementById("name").value;
@@ -27,8 +27,9 @@ var sender = function () {
         })
     };
     $.ajax(settings).done(function (response) {
-        console.log(response);
-    });
+		 console.log(response);
+		 alert("Дані надіслані. Дякуємо за замовлення!");
+	 });
     document.getElementById("name").value = "";
 	document.getElementById("phone").value = "";
 	document.getElementById("town").value = "";
