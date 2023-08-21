@@ -1,0 +1,12 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame 795/rainbow" clip-path="url(#clip0_59_144)">
+<path id="Vector" d="M58.6663 45.3327C58.6663 30.6047 46.7277 18.666 31.9997 18.666C17.2717 18.666 5.33301 30.6047 5.33301 45.3327" stroke="#8E96AB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M48 45.334C48 41.0905 46.3143 37.0209 43.3137 34.0203C40.3131 31.0197 36.2435 29.334 32 29.334C27.7565 29.334 23.6869 31.0197 20.6863 34.0203C17.6857 37.0209 16 41.0905 16 45.334" stroke="#8E96AB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M37.3337 45.3333C37.3337 43.9188 36.7718 42.5623 35.7716 41.5621C34.7714 40.5619 33.4148 40 32.0003 40C30.5858 40 29.2293 40.5619 28.2291 41.5621C27.2289 42.5623 26.667 43.9188 26.667 45.3333" stroke="#8E96AB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_59_144">
+<rect width="64" height="64" fill="white"/>
+</clipPath>
+</defs>
+</svg>

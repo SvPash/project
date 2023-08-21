@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230821052106">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Logo" class="header__logo"></picture>
+					<div class="header__navigation">
+						<div class="header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item"><a href="index.html" data-goto=".header" class="menu__link">Головна</a></li>
+									<li class="menu__item"><a href="" data-goto=".about-us" class="menu__link">Про нас</a></li>
+									<li class="menu__item"><a href="" data-goto=".assortment" class="menu__link">Асортимент</a></li>
+									<li class="menu__item"><a href="" data-goto=".consultation" class="menu__link">Контакти</a></li>
+								</ul>
+							</nav>
+							<div class="header__right-block">
+								<select name="form[]" data-show-selected class="header__select" data-class-modif="form">
+									<option value="1" selected>UA</option>
+									<option value="2">Eng</option>
+									<option value="3">DE</option>
+								</select>
+								<div class="header__button">
+									<button data-goto=".consultation">Замовити дзвоник</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button type="button" class="menu__icon icon-menu"></button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__section main-block">
+				<div class="main-block__container">
+					<div class="main-block__body">
+						<div class="main-block__top top-main-block">
+							<h1 class="top-main-block__title">Виберіть <br> свій ідеальний <span>будинок</span></h1>
+							<!-- Оболонка слайдера -->
+							<div class="top-main-block__slider swiper">
+								<!-- Частина слайдера, що рухається -->
+								<div class="top-main-block__wrapper swiper-wrapper">
+									<!-- Слайд -->
+									<div class="top-main-block__slide swiper-slide">Великий вибір нерухомості з широким спектром розташувань, стилів та розмірів, щоб ви могли знайти саме те, що потрібно для вашого комфорту і задоволення.</div>
+									<div class="top-main-block__slide swiper-slide">Великий вибір нерухомості з широким спектром розташувань, стилів та розмірів, щоб ви могли знайти саме те, що потрібно для вашого комфорту і задоволення.</div>
+									<div class="top-main-block__slide swiper-slide">Великий вибір нерухомості з широким спектром розташувань, стилів та розмірів, щоб ви могли знайти саме те, що потрібно для вашого комфорту і задоволення.</div>
+									<div class="top-main-block__slide swiper-slide">Великий вибір нерухомості з широким спектром розташувань, стилів та розмірів, щоб ви могли знайти саме те, що потрібно для вашого комфорту і задоволення.</div>
+								</div>
+								<!-- Якщо потрібна пагінація -->
+								<div class="swiper-pagination"></div>
+								<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+								<button type="button" class="swiper-button-prev"></button>
+								<button type="button" class="swiper-button-next"></button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="main-block__main-house main-house">
+					<div id="popup-info-one" aria-hidden="true" class="popup">
+						<div class="popup__wrapper">
+							<div class="popup__content popup-info-one">
+								<button data-close type="button" class="popup__close"></button>
+								<div class="popup-info-one__body">
+									<div class="popup-info-one__top">
+										<h2 class="popup-info-one__title">Урбан-Холмс</h2>
+										<div class="popup-info-one__sub">
+											<p>від</p>
+											<p>18 000 ₴</p>
+											<p>за м2</p>
+										</div>
+									</div>
+									<div class="popup-info-one__bottom">
+										<h4 class="popup-info-one__title-items">Характеристики Дому УРБАН-ХОЛМС:</h4>
+										<div class="popup-info-one__items">
+											<div class="popup-info-one__item"><span>Тип:</span> Сучасний одноповерховий будинок</div>
+											<div class="popup-info-one__item"><span>Площа:</span> 180 квадратних метрів</div>
+											<div class="popup-info-one__item"><span>Кімнати:</span> 3 спальні, простора вітальня, окрема кухня, 2 ванні кімнати</div>
+											<div class="popup-info-one__item"><span>Дизайн:</span> Стильний і функціональний дизайн інтер'єру</div>
+											<div class="popup-info-one__item"><span>Матеріали:</span> Використання високоякісних будівельних матеріалів</div>
+											<div class="popup-info-one__item"><span>Особливості:</span> Відкрита тераса з видом на природу, гараж на два автомобіля, </div>
+											<div class="popup-info-one__item">просторий задній двір для відпочинку та розваг</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="popup-video-one" aria-hidden="true" class="popup">
+						<div class="popup__wrapper">
+							<div class="popup__content popup-info-one">
+								<button data-close type="button" class="popup__close"></button>
+								<div class="popup-info-one__body popup-info-one__body_video">
+									<div class="popup-info-one__top">
+										<h2 class="popup-info-one__title">Урбан-Холмс</h2>
+										<div class="popup-info-one__sub">
+											<p>від</p>
+											<p>18 000 ₴</p>
+											<p>за м2</p>
+										</div>
+									</div>
+									<div class="popup-info-one__video">
+										<iframe src="https://www.youtube.com/embed/EropCjLAcsw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Оболонка слайдера -->
+					<div class="main-house__slider swiper-house">
+						<!-- Частина слайдера, що рухається -->
+						<div class="main-house__wrapper swiper-wrapper">
+							<!-- Слайд -->
+							<div class="main-house__slide swiper-slide">
+								<div class="swiper-slide__body">
+									<div class="swiper-slide__image-ibg">
+										<picture><source srcset="img/main-house/01.webp" type="image/webp"><img src="img/main-house/01.jpg" alt="House"></picture>
+									</div>
+									<div class="swiper-slide__container">
+										<div class="swiper-slide__video-block video-block-slide">
+											<div class="video-block-slide__info">
+												<div class="video-block-slide__subtitle">Відеоогляд на будинок</div>
+												<h4 class="video-block-slide__title">Урбан-Холмс</h4>
+												<button data-popup="#popup-video-one" class="video-block-slide__button"></button>
+											</div>
+											<div class="video-block-slide__image">
+												<picture><source srcset="img/video-block.webp" type="image/webp"><img src="img/video-block.png" alt="Image"></picture>
+											</div>
+										</div>
+										<div class="swiper-slide__buttons">
+											<button data-goto=".consultation" class="swiper-slide__button swiper-slide__button_white">Замовити</button>
+											<button data-popup="#popup-info-one" class="swiper-slide__button swiper-slide__button_blue">Детальніше</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="main-house__slide swiper-slide">
+								<div class="swiper-slide__body">
+									<div class="swiper-slide__image-ibg">
+										<picture><source srcset="img/main-house/02.webp" type="image/webp"><img src="img/main-house/02.jpg" alt="House"></picture>
+									</div>
+									<div class="swiper-slide__container">
+										<div class="swiper-slide__buttons">
+											<button data-goto=".consultation" class="swiper-slide__button swiper-slide__button_white">Замовити</button>
+											<button data-popup="#popup-info-one" class="swiper-slide__button swiper-slide__button_blue">Детальніше</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="main-house__slide swiper-slide">
+								<div class="swiper-slide__body">
+									<div class="swiper-slide__image-ibg">
+										<picture><source srcset="img/main-house/03.webp" type="image/webp"><img src="img/main-house/03.jpg" alt="House"></picture>
+									</div>
+									<div class="swiper-slide__container">
+										<div class="swiper-slide__buttons">
+											<button data-goto=".consultation" class="swiper-slide__button swiper-slide__button_white">Замовити</button>
+											<button data-popup="#popup-info-one" class="swiper-slide__button swiper-slide__button_blue">Детальніше</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Якщо потрібна пагінація -->
+						<div class="swiper-pagination-house"></div>
+						<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+						<button type="button" class="swiper-button-prev-house"></button>
+						<button type="button" class="swiper-button-next-house"></button>
+					</div>
+				</div>
+			</div>
+			<div class="main-block__main-house main-house">
+				<div id="popup-info-two" aria-hidden="true" class="popup">
+					<div class="popup__wrapper">
+						<div class="popup__content popup__content_big popup-info-one">
+							<button data-close type="button" class="popup__close"></button>
+							<div class="popup-info-one__body">
+								<div class="popup-info-one__top">
+									<h2 class="popup-info-one__title">Урбан-Холмс</h2>
+									<div class="popup-info-one__sub">
+										<p>від</p>
+										<p>18 000 ₴</p>
+										<p>за м2</p>
+									</div>
+								</div>
+								<div class="popup-info-one__bottom">
+									<h4 class="popup-info-one__title-items">Характеристики Дому УРБАН-ХОЛМС:</h4>
+									<div class="popup-info-one__items">
+										<div class="popup-info-one__item"><span>Тип:</span> Сучасний одноповерховий будинок</div>
+										<div class="popup-info-one__item"><span>Площа:</span> 180 квадратних метрів</div>
+										<div class="popup-info-one__item"><span>Кімнати:</span> 3 спальні, простора вітальня, окрема кухня, 2 ванні кімнати</div>
+										<div class="popup-info-one__item"><span>Дизайн:</span> Стильний і функціональний дизайн інтер'єру</div>
+										<div class="popup-info-one__item"><span>Матеріали:</span> Використання високоякісних будівельних матеріалів</div>
+										<div class="popup-info-one__item"><span>Особливості:</span> Відкрита тераса з видом на природу, гараж на два автомобіля, </div>
+										<div class="popup-info-one__item">просторий задній двір для відпочинку та розваг</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="popup-video-two" aria-hidden="true" class="popup">
+					<div class="popup__wrapper">
+						<div class="popup__content popup__content_big popup-info-one">
+							<button data-close type="button" class="popup__close"></button>
+							<div class="popup-info-one__body popup-info-one__body_video">
+								<div class="popup-info-one__top">
+									<h2 class="popup-info-one__title">Урбан-Холмс</h2>
+									<div class="popup-info-one__sub">
+										<p>від</p>
+										<p>18 000 ₴</p>
+										<p>за м2</p>
+									</div>
+								</div>
+								<div class="popup-info-one__video">
+									<iframe src="https://www.youtube.com/embed/EropCjLAcsw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Оболонка слайдера -->
+				<div class="main-house__slider swiper-house">
+					<!-- Частина слайдера, що рухається -->
+					<div class="main-house__wrapper swiper-wrapper">
+						<!-- Слайд -->
+						<div class="main-house__slide swiper-slide">
+							<div class="swiper-slide__body">
+								<div class="swiper-slide__image-ibg">
+									<picture><source srcset="img/two-house/01.webp" type="image/webp"><img src="img/two-house/01.png" alt="House"></picture>
+								</div>
+								<div class="swiper-slide__container swiper-slide__container_big">
+									<div class="swiper-slide__title-block">
+										<h2 class="swiper-slide__title">Урбан-Холмс</h2>
+										<div class="swiper-slide__sub">
+											<p>від</p>
+											<p>18 000 ₴</p>
+											<p>за м2</p>
+										</div>
+									</div>
+									<div class="swiper-slide__video-block video-block-slide">
+										<div class="video-block-slide__info">
+											<div class="video-block-slide__subtitle">Відеоогляд на будинок</div>
+											<h4 class="video-block-slide__title">Урбан-Холмс</h4>
+											<button data-popup="#popup-video-two" class="video-block-slide__button"></button>
+										</div>
+										<div class="video-block-slide__image">
+											<picture><source srcset="img/video-block.webp" type="image/webp"><img src="img/video-block.png" alt="Image"></picture>
+										</div>
+									</div>
+									<div class="swiper-slide__buttons">
+										<button data-goto=".consultation" class="swiper-slide__button swiper-slide__button_white">Замовити</button>
+										<button data-popup="#popup-info-two" class="swiper-slide__button swiper-slide__button_blue">Детальніше</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="main-house__slide swiper-slide">
+							<div class="swiper-slide__body">
+								<div class="swiper-slide__image-ibg">
+									<picture><source srcset="img/two-house/02.webp" type="image/webp"><img src="img/two-house/02.png" alt="House"></picture>
+								</div>
+								<div class="swiper-slide__container swiper-slide__container_big">
+									<div class="swiper-slide__title-block">
+										<h2 class="swiper-slide__title">Урбан-Холмс</h2>
+										<div class="swiper-slide__sub">
+											<p>від</p>
+											<p>18 000 ₴</p>
+											<p>за м2</p>
+										</div>
+									</div>
+									<div class="swiper-slide__buttons">
+										<button data-goto=".consultation" class="swiper-slide__button swiper-slide__button_white">Замовити</button>
+										<button data-popup="#popup-info-one" class="swiper-slide__button swiper-slide__button_blue">Детальніше</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="main-house__slide swiper-slide">
+							<div class="swiper-slide__body">
+								<div class="swiper-slide__image-ibg">
+									<picture><source srcset="img/two-house/03.webp" type="image/webp"><img src="img/two-house/03.png" alt="House"></picture>
+								</div>
+								<div class="swiper-slide__container swiper-slide__container_big">
+									<div class="swiper-slide__title-block">
+										<h2 class="swiper-slide__title">Урбан-Холмс</h2>
+										<div class="swiper-slide__sub">
+											<p>від</p>
+											<p>18 000 ₴</p>
+											<p>за м2</p>
+										</div>
+									</div>
+									<div class="swiper-slide__buttons">
+										<button data-goto=".consultation" class="swiper-slide__button swiper-slide__button_white">Замовити</button>
+										<button data-popup="#popup-info-one" class="swiper-slide__button swiper-slide__button_blue">Детальніше</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Якщо потрібна пагінація -->
+					<div class="swiper-pagination-house"></div>
+					<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+					<button type="button" class="swiper-button-prev-house"></button>
+					<button type="button" class="swiper-button-next-house"></button>
+				</div>
+			</div>
+			<div class="main-block__main-house main-house">
+				<div id="popup-info-three" aria-hidden="true" class="popup">
+					<div class="popup__wrapper">
+						<div class="popup__content popup__content_big popup-info-one">
+							<button data-close type="button" class="popup__close"></button>
+							<div class="popup-info-one__body">
+								<div class="popup-info-one__top">
+									<h2 class="popup-info-one__title">Еко-Вілла</h2>
+									<div class="popup-info-one__sub">
+										<p>від</p>
+										<p>18 000 ₴</p>
+										<p>за м2</p>
+									</div>
+								</div>
+								<div class="popup-info-one__bottom">
+									<h4 class="popup-info-one__title-items">Характеристики Дому УРБАН-ХОЛМС:</h4>
+									<div class="popup-info-one__items">
+										<div class="popup-info-one__item"><span>Тип:</span> Сучасний одноповерховий будинок</div>
+										<div class="popup-info-one__item"><span>Площа:</span> 180 квадратних метрів</div>
+										<div class="popup-info-one__item"><span>Кімнати:</span> 3 спальні, простора вітальня, окрема кухня, 2 ванні кімнати</div>
+										<div class="popup-info-one__item"><span>Дизайн:</span> Стильний і функціональний дизайн інтер'єру</div>
+										<div class="popup-info-one__item"><span>Матеріали:</span> Використання високоякісних будівельних матеріалів</div>
+										<div class="popup-info-one__item"><span>Особливості:</span> Відкрита тераса з видом на природу, гараж на два автомобіля, </div>
+										<div class="popup-info-one__item">просторий задній двір для відпочинку та розваг</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="popup-video-three" aria-hidden="true" class="popup">
+					<div class="popup__wrapper">
+						<div class="popup__content popup__content_big popup-info-one">
+							<button data-close type="button" class="popup__close"></button>
+							<div class="popup-info-one__body popup-info-one__body_video">
+								<div class="popup-info-one__top">
+									<h2 class="popup-info-one__title">Еко-Вілла</h2>
+									<div class="popup-info-one__sub">
+										<p>від</p>
+										<p>18 000 ₴</p>
+										<p>за м2</p>
+									</div>
+								</div>
+								<div class="popup-info-one__video">
+									<iframe src="https://www.youtube.com/embed/EropCjLAcsw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Оболонка слайдера -->
+				<div class="main-house__slider swiper-house">
+					<!-- Частина слайдера, що рухається -->
+					<div class="main-house__wrapper swiper-wrapper">
+						<!-- Слайд -->
+						<div class="main-house__slide swiper-slide">
+							<div class="swiper-slide__body">
+								<div class="swiper-slide__image-ibg">
+									<picture><source srcset="img/three-house/01.webp" type="image/webp"><img src="img/three-house/01.png" alt="House"></picture>
+								</div>
+								<div class="swiper-slide__container swiper-slide__container_big">
+									<div class="swiper-slide__title-block">
+										<h2 class="swiper-slide__title">Еко-Вілла</h2>
+										<div class="swiper-slide__sub">
+											<p>від</p>
+											<p>18 000 ₴</p>
+											<p>за м2</p>
+										</div>
+									</div>
+									<div class="swiper-slide__video-block video-block-slide">
+										<div class="video-block-slide__info">
+											<div class="video-block-slide__subtitle">Відеоогляд на будинок</div>
+											<h4 class="video-block-slide__title">Урбан-Холмс</h4>
+											<button data-popup="#popup-video-three" class="video-block-slide__button"></button>
+										</div>
+										<div class="video-block-slide__image">
+											<picture><source srcset="img/video-block.webp" type="image/webp"><img src="img/video-block.png" alt="Image"></picture>
+										</div>
+									</div>
+									<div class="swiper-slide__buttons">
+										<button data-goto=".consultation" class="swiper-slide__button swiper-slide__button_white">Замовити</button>
+										<button data-popup="#popup-info-three" class="swiper-slide__button swiper-slide__button_blue">Детальніше</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="main-house__slide swiper-slide">
+							<div class="swiper-slide__body">
+								<div class="swiper-slide__image-ibg">
+									<picture><source srcset="img/three-house/02.webp" type="image/webp"><img src="img/three-house/02.png" alt="House"></picture>
+								</div>
+								<div class="swiper-slide__container swiper-slide__container_big">
+									<div class="swiper-slide__title-block">
+										<h2 class="swiper-slide__title">Еко-Вілла</h2>
+										<div class="swiper-slide__sub">
+											<p>від</p>
+											<p>18 000 ₴</p>
+											<p>за м2</p>
+										</div>
+									</div>
+									<div class="swiper-slide__buttons">
+										<button data-goto=".consultation" class="swiper-slide__button swiper-slide__button_white">Замовити</button>
+										<button data-popup="#popup-info-one" class="swiper-slide__button swiper-slide__button_blue">Детальніше</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="main-house__slide swiper-slide">
+							<div class="swiper-slide__body">
+								<div class="swiper-slide__image-ibg">
+									<picture><source srcset="img/three-house/03.webp" type="image/webp"><img src="img/three-house/03.png" alt="House"></picture>
+								</div>
+								<div class="swiper-slide__container swiper-slide__container_big">
+									<div class="swiper-slide__title-block">
+										<h2 class="swiper-slide__title">Еко-Вілла</h2>
+										<div class="swiper-slide__sub">
+											<p>від</p>
+											<p>18 000 ₴</p>
+											<p>за м2</p>
+										</div>
+									</div>
+									<div class="swiper-slide__buttons">
+										<button data-goto=".consultation" class="swiper-slide__button swiper-slide__button_white">Замовити</button>
+										<button data-popup="#popup-info-one" class="swiper-slide__button swiper-slide__button_blue">Детальніше</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Якщо потрібна пагінація -->
+					<div class="swiper-pagination-house"></div>
+					<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+					<button type="button" class="swiper-button-prev-house"></button>
+					<button type="button" class="swiper-button-next-house"></button>
+				</div>
+			</div>
+			<div class="page__section assortment">
+				<div class="assortment__container">
+					<div class="assortment__body">
+						<h2 class="assortment__title">Детальніше <br> про наші будинки</h2>
+						<!-- Оболонка слайдера -->
+						<div class="assortment__slider swiper-assortment">
+							<!-- Частина слайдера, що рухається -->
+							<div class="assortment__wrapper swiper-wrapper">
+								<!-- Слайд -->
+								<div class="assortment__slide swiper-slide slide-assortment">
+									<div class="slide-assortment__body">
+										<div class="slide-assortment__info-left">
+											<div class="slide-assortment__info-border">
+												<img src="img/assortment/rainbow.svg" class="slide-assortment__icon" alt="Icon">
+												<div class="slide-assortment__content">
+													<h4 class="slide-assortment__title">Затишна сімейна база</h4>
+													<div class="slide-assortment__text">Цей будинок створений, щоб стати затишним сімейним гніздом, де ви зможете насолоджуватись спокоєм та приватністю у природному оточенні.</div>
+												</div>
+											</div>
+										</div>
+										<div class="slide-assortment__image-ibg">
+											<picture><source srcset="img/assortment/01.webp" type="image/webp"><img src="img/assortment/01.png" alt="Image"></picture>
+										</div>
+									</div>
+									<div class="slide-assortment__body mobile-none slide-assortment__body_reverse">
+										<div class="slide-assortment__info-right">
+											<div class="slide-assortment__info-border">
+												<img src="img/assortment/plant.svg" class="slide-assortment__icon" alt="Icon">
+												<div class="slide-assortment__content">
+													<h4 class="slide-assortment__title">Комфорт та зручність</h4>
+													<div class="slide-assortment__text">Завдяки одноповерховій конструкції, ви зможете насолоджуватись максимальним комфортом без необхідності сходити на додаткові поверхи.</div>
+												</div>
+											</div>
+										</div>
+										<div class="slide-assortment__image-ibg ">
+											<picture><source srcset="img/assortment/02.webp" type="image/webp"><img src="img/assortment/02.png" alt="Image"></picture>
+										</div>
+									</div>
+								</div>
+								<div class="assortment__slide assortment__slide_mobile swiper-slide slide-assortment">
+									<div class="slide-assortment__body slide-assortment__body_reverse">
+										<div class="slide-assortment__info-right">
+											<div class="slide-assortment__info-border">
+												<img src="img/assortment/plant.svg" class="slide-assortment__icon" alt="Icon">
+												<div class="slide-assortment__content">
+													<h4 class="slide-assortment__title">Комфорт та зручність</h4>
+													<div class="slide-assortment__text">Завдяки одноповерховій конструкції, ви зможете насолоджуватись максимальним комфортом без необхідності сходити на додаткові поверхи.</div>
+												</div>
+											</div>
+										</div>
+										<div class="slide-assortment__image-ibg ">
+											<picture><source srcset="img/assortment/02.webp" type="image/webp"><img src="img/assortment/02.png" alt="Image"></picture>
+										</div>
+									</div>
+								</div>
+								<div class="assortment__slide swiper-slide slide-assortment">
+									<div class="slide-assortment__body">
+										<div class="slide-assortment__info-left">
+											<div class="slide-assortment__info-border">
+												<img src="img/assortment/tree.svg" class="slide-assortment__icon" alt="Icon">
+												<div class="slide-assortment__content">
+													<h4 class="slide-assortment__title">Близькість до природи</h4>
+													<div class="slide-assortment__text">Ви зможете насолоджуватись прогулянками в лісі, відпочивати на свіжому повітрі та насолоджуватись спокоєм і гармонією природного середовища.</div>
+												</div>
+											</div>
+										</div>
+										<div class="slide-assortment__image-ibg">
+											<picture><source srcset="img/assortment/03.webp" type="image/webp"><img src="img/assortment/03.png" alt="Image"></picture>
+										</div>
+									</div>
+									<div class="slide-assortment__body mobile-none slide-assortment__body_reverse">
+										<div class="slide-assortment__info-right">
+											<div class="slide-assortment__info-border">
+												<img src="img/assortment/gps.svg" class="slide-assortment__icon" alt="Icon">
+												<div class="slide-assortment__content">
+													<h4 class="slide-assortment__title">Приватна ділянка</h4>
+													<div class="slide-assortment__text">Цей будиночок оточений приватною ділянкою, де ви зможете насолоджуватись свіжим повітрям та мальовничими пейзажами без сусідів поруч.</div>
+												</div>
+											</div>
+										</div>
+										<div class="slide-assortment__image-ibg">
+											<picture><source srcset="img/assortment/04.webp" type="image/webp"><img src="img/assortment/04.png" alt="Image"></picture>
+										</div>
+									</div>
+								</div>
+								<div class="assortment__slide assortment__slide_mobile swiper-slide slide-assortment">
+									<div class="slide-assortment__body slide-assortment__body_reverse">
+										<div class="slide-assortment__info-right">
+											<div class="slide-assortment__info-border">
+												<img src="img/assortment/gps.svg" class="slide-assortment__icon" alt="Icon">
+												<div class="slide-assortment__content">
+													<h4 class="slide-assortment__title">Приватна ділянка</h4>
+													<div class="slide-assortment__text">Цей будиночок оточений приватною ділянкою, де ви зможете насолоджуватись свіжим повітрям та мальовничими пейзажами без сусідів поруч.</div>
+												</div>
+											</div>
+										</div>
+										<div class="slide-assortment__image-ibg">
+											<picture><source srcset="img/assortment/04.webp" type="image/webp"><img src="img/assortment/04.png" alt="Image"></picture>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Якщо потрібна пагінація -->
+							<div class="swiper-pagination-house"></div>
+							<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+							<button type="button" class="swiper-button-prev-assortment"></button>
+							<button type="button" class="swiper-button-next-assortment"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__section about-us">
+				<div class="about-us__container">
+					<div class="about-us__body">
+						<div id="popup-aboutus-video" aria-hidden="true" class="popup">
+							<div class="popup__wrapper popup-aboutus__wrapper">
+								<div class="popup__content popup-aboutus__content">
+									<button data-close type="button" class="popup__close"></button>
+									<div class="popup-aboutus__body">
+										<div class="popup-aboutus__video">
+											<iframe src="https://www.youtube.com/embed/EropCjLAcsw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<h2 class="about-us__title">Будуйте свої мрії: Експерти в будівництві житлових об'єктів</h2>
+						<div class="about-us__content">
+							<div class="about-us__right-content">
+								<div data-showmore="items" class="about-us__showmore">
+									<div data-showmore-content="1" data-showmore-content class="about-us-showmore__content">
+										<p>Ми - експерти в будівництві надійних житлових об'єктів, які допомагають вам збудувати свою мрію. Наша компанія пропонує професійні послуги з проектування та будівництва, забезпечуючи високу якість, індивідуальний підхід та використання сучасних технологій. Довірте нам свою мрію про ідеальний дім, і ми зробимо все можливе, щоб вона стала реальністю.</p>
+										<p>Наша мета - перевершити ваші очікування та створити особливий простір, в якому ви будете раді повертатися кожен день. Ми віддані своїй роботі і працюємо з ентузіазмом, щоб забезпечити вам найкращий досвід будівництва. Наша команда професіоналів забезпечує повну підтримку на кожному етапі процесу - від концепції до здачі проекту. З нами ви отримуєте не просто будинок, а втілення вашого стилю, зручності та комфорту. Дозвольте нам зробити вашу мрію про ідеальний дім реальністю.</p>
+									</div>
+									<div class="buttons__flex">
+										<button hidden data-showmore-button type="button" class="about-us-showmore__more">
+											<span>Більше інформації</span>
+											<span>Згорнути</span>
+										</button>
+										<button data-popup="#popup-aboutus-video" class="about-us__button">Дивитись відео</button>
+									</div>
+								</div>
+							</div>
+							<div class="about-us__left-content">
+								<div class="about-us__item">
+									<div class="about-us__number">10+</div>
+									<div class="about-us__desc">Років досвіду </div>
+								</div>
+								<div class="about-us__item">
+									<div class="about-us__number">100+</div>
+									<div class="about-us__desc">Виконаних проектів</div>
+								</div>
+								<div class="about-us__item">
+									<div class="about-us__number">95%</div>
+									<div class="about-us__desc">Рейтинг від клієнтів</div>
+								</div>
+								<div class="about-us__item">
+									<div class="about-us__number">24/7</div>
+									<div class="about-us__desc">Підтримка клієнтів</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__section consultation">
+				<div class="consultation__container">
+					<div class="consultation__body">
+						<div class="consultation__left-block">
+							<div class="consultation__left-block_content">
+								<h3 class="consultation__title">Замовте безкоштовну консультацію вже зараз</h3>
+								<div class="consultation__sub">і реалізуйте свою мрію про власний дім</div>
+							</div>
+						</div>
+						<div class="consultation__right-block">
+							<form action="#" class="consultation__form form">
+								<div class="form__lines">
+									<div class="form__line">
+										<label for="i-1" class="form__label"></label>
+										<input id="i-1" name="name" type="text" placeholder="Ім‘я" class="form__input input">
+									</div>
+									<div class="form__line">
+										<label for="i-2" class="form__label"></label>
+										<input id="i-2" name="tel" type="tel" placeholder="Телефон" class="form__input input">
+									</div>
+									<div class="form__line">
+										<label for="i-3" class="form__label"></label>
+										<input id="i-3" name="email" type="email" placeholder="e-mail" class="form__input input">
+									</div>
+								</div>
+								<div class="form__button">
+									<button type="submit" class="button"></button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__left-block">
+						<div class="footer__logo">LOGO</div>
+						<div class="footer__info">
+							<a href="tel:+380000000000" class="footer__phone">+38 (000) 000 00 00</a>
+							<div class="footer__adress">
+								<p>м.Київ, вул.Шевченка 42,</p>
+								<p>БЦ “Розмарин“ офіс 607</p>
+							</div>
+						</div>
+					</div>
+					<div class="footer__right-block">
+						<div data-da=".footer__left-block,767.98,1" class="footer__menu menu-footer">
+							<nav class="menu-footer__body">
+								<ul class="menu-footer__list">
+									<li class="menu-footer__item"><a href="" data-goto=".header" class="menu-footer__link">Головна</a></li>
+									<li class="menu-footer__item"><a href="" data-goto=".about-us" class="menu-footer__link">Про нас</a></li>
+									<li class="menu-footer__item"><a href="" data-goto=".assortment" class="menu-footer__link">Асортимент</a></li>
+									<li class="menu-footer__item"><a href="" data-goto=".consultation" class="menu-footer__link">Контакти</a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="footer__socials">
+							<a href="#" target="_blank" class="footer__social"><img src="img/icons/fb.svg" alt="Facebook"></a>
+							<a href="#" target="_blank" class="footer__social"><img src="img/icons/instagram.svg" alt="Instagram"></a>
+							<a href="#" target="_blank" class="footer__social"><img src="img/icons/twitter.svg" alt="Twitter"></a>
+							<a href="#" target="_blank" class="footer__social"><img src="img/icons/google.svg" alt="Google"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button data-goto=".header" class="footer__button-up"></button>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230821052106"></script>
+</body>
+
+</html>
