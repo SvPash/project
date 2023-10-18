@@ -393,7 +393,7 @@ initializeClock('clockdiv', deadline);
 		 updateClock();
 		 var timeinterval = setInterval(updateClock, 1e3);
 	}
-	var deadline = "October 25 2023 23:59:59 GMT+0200";
+	var deadline = "December 25 2023 23:59:59 GMT+0200";
 	initializeClock("clockdiv", deadline);
 	window["FLS"] = true;
 	isWebp();
