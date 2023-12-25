@@ -1,0 +1,65 @@
+.timer {
+	padding: 30px 0;
+	overflow: hidden;
+	color: #fff;
+	background-color: #004778;
+    color: #fff;
+
+}
+.timer .timer-title {
+	font-size: 26px;
+	line-height: 30px;
+	margin-bottom: 10px;
+	font-family: '__Museo Sans Cyrl_5';
+	text-align: center;
+	font-weight: 700;
+}
+.timer .timer-title-time {	
+	font-size: 12px;
+	text-align: center;
+}
+
+.timer .smalltext {
+	font-size: 12px;
+}
+.timer div#clockdiv {
+	text-align: center;
+	margin-top: 20px;
+}
+.timer div#clockdiv > div {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 40px;
+}
+
+.timer div#clockdiv span {
+	font-size: 30px;
+	margin-bottom: 10px;
+	display: inline-block;
+	position: relative;
+	font-family: '__Museo Sans Cyrl_5';
+}
+@media (min-width: 375px) {
+	.timer .timer-title {
+		font-size: 36px;
+		line-height: 40px;
+	}
+	.timer .timer-title-time {
+		font-size: 16px;
+	}
+	.timer div#clockdiv > div {
+		width: 60px;
+	}
+	.timer div#clockdiv span {
+		font-size: 40px;
+	}
+	.timer .smalltext {
+		font-size: 16px;
+	}
+}
+@media (min-width: 411px) {
+	.timer {
+		padding: 60px 0;
+	}
+}
