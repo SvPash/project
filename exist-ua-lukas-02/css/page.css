@@ -597,3 +597,7 @@ h6 {
 .webp .main-block{ background: #01060f url(../images/page/bg4.webp) center/cover no-repeat; }
 
 .webp .products__container::after{ background: #1a9652 url(../images/page/decor-removebg-preview-removebg-preview.webp) right center/contain no-repeat; }
+
+main{
+	overflow: hidden;
+}
